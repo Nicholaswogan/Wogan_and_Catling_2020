@@ -10,8 +10,8 @@ global input_file
 %input_file = 'inputs_Proterozoic_max.txt';
 %input_file = 'inputs_Proterozoic_min.txt';
 
-%input_file = 'inputs_Volc_iter.txt';
-input_file = 'inputs_Volc_iter_atmos_only.txt';
+input_file = 'inputs_Volc_iter.txt';
+%input_file = 'inputs_Volc_iter_atmos_only.txt';
 
 All_inputs=importdata(input_file,';'); %load from text file
 v_input=All_inputs(1); % first line is charge vector

@@ -9,7 +9,7 @@ vals=[];  % this array will store the observed and equilibrium abundances for ea
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Number of iterations:
-num=1; %~10 should give roughly the global minimum, ~100 will reliably provide an accurate global minimum.
+num=30; %~10 should give roughly the global minimum, ~100 will reliably provide an accurate global minimum.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 load_vectors %this load the names, species, and abundances of species
