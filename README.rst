@@ -1,6 +1,6 @@
-Code used in Wogan and Catling (2019) (link here)
+Code used in Wogan and Catling (2020) (link here)
 ==========
-This Github directory contains all the Python, Matlab, and Fortan code used in Wogan and Catling (2019), which is an article about the co-evolution of chemical disequilibrium and life on the early Earth. To reproduce our results, please follow these steps. Most of the code was developed using macOS 10.14.
+This Github directory contains all the Python, Matlab, and Fortan code used in Wogan and Catling (2020), which is an article about the co-evolution of chemical disequilibrium and life on the early Earth. To reproduce our results, please follow these steps. Most of the code was developed using macOS 10.14.
 
 Requirements:
 
@@ -11,7 +11,7 @@ Requirements:
 
 1. Calculate volcanic outgassing fluxes on the Hadean Earth
 --------
-Use Jupyter Notebook to open the file titled "Volcanism_outgassing_fluxes.ipynb" and run every cell within the notebook. This will generate ranges of volcanic outgassing fluxes on the prebiotic Earth, and save these fluxes in the file "Atmos/Data/volc_photochem_inputs.txt". This portion of the code is described in Wogan and Catling (2019) in Appendix A.
+Use Jupyter Notebook to open the file titled "Volcanism_outgassing_fluxes.ipynb" and run every cell within the notebook. This will generate ranges of volcanic outgassing fluxes on the prebiotic Earth, and save these fluxes in the file "Atmos/Data/volc_photochem_inputs.txt". This portion of the code is described in Wogan and Catling (2020) in Appendix A.
 
 2. Photochemical modeling of the prebiotic and chemotrophic Earth
 --------
@@ -34,7 +34,7 @@ Once the code is compiled, run the Python command.
 
    python volcan_iter.py
 
-This will run photochemical models for every outgassing scenario produced in step 1. Two outputs are produced for each outgassing scenario: The first is for the prebiotic Earth, and the second is for the Earth influenced by a chemotrophic ecosystem (for details of the ecosystem see Wogan and Catling (2019)). Note that modeling the chemotrophic Earth requires running multiple photochemical models which eventually converge on a solution. See the function "solve_eco" in the file "volc_func.py" for details of this algorithm.
+This will run photochemical models for every outgassing scenario produced in step 1. Two outputs are produced for each outgassing scenario: The first is for the prebiotic Earth, and the second is for the Earth influenced by a chemotrophic ecosystem (for details of the ecosystem see Wogan and Catling (2020)). Note that modeling the chemotrophic Earth requires running multiple photochemical models which eventually converge on a solution. See the function "solve_eco" in the file "volc_func.py" for details of this algorithm.
 
 The code will output results in the directory "Atmos/Output/disequilibrium/Volc_iter". Approximate run time is 30 minutes. 
 
@@ -65,7 +65,7 @@ Approximate run-time is ~24 hours.
 
 4. Plot the results
 --------
-To reproduce Figure 1 and 2 (with the exception of the atmosphere-only disequilibrium calculation) in Wogan and Catling 2019, run the following Python scripts in the root directory.
+To reproduce Figure 1 and 2 (with the exception of the atmosphere-only disequilibrium calculation) in Wogan and Catling 2020, run the following Python scripts in the root directory.
 
 .. code-block:: bash
 
