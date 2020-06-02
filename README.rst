@@ -22,7 +22,7 @@ Open a terminal and navigate to the "Atmos" directory. The Atmos photochemical c
    make -f PhotoMake clean
    make -f PhotoMake
    
-In my experience, in order for the code to compile without any issues, you should be using gcc-4.9. To install gcc-4.9 on MacOS use the Homebrew command:
+In my experience, in order for the code to compile without any issues, you should be using gfortran-4.9. To install gfortran-4.9 on MacOS use the Homebrew command:
 
 .. code-block:: bash
 
