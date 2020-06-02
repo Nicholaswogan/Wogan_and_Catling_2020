@@ -1,6 +1,6 @@
 Code used in Wogan and Catling (2020) (link here)
 ==========
-This Github directory contains all the Python, Matlab, and Fortan code used in Wogan and Catling (2020), which is an article about the co-evolution of chemical disequilibrium and life on the early Earth. To reproduce our results, please follow these steps. Most of the code was developed using macOS 10.14.
+This Github directory contains all the Python, Matlab, and Fortan code used in [Wogan and Catling (2020)](https://iopscience.iop.org/article/10.3847/1538-4357/ab7b81), which is an article about the co-evolution of chemical disequilibrium and life on the early Earth. To reproduce our results, please follow these steps. Most of the code was developed using macOS 10.14.
 
 Requirements:
 
