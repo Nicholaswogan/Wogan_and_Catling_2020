@@ -4,7 +4,7 @@ This Github directory contains all the Python, Matlab, and Fortan code used in W
 
 Requirements:
 
-- gcc (i.e. fortran compiler)
+- gfortran (i.e. fortran compiler)
 - MATLAB 2017 or newer
 - Python 3 with packages numpy, matplotlib, os, sys, and subprocesses
 - Jupyter notebook
